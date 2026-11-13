@@ -1,0 +1,88 @@
+================================================================================
+  ULTIMATE DEEP CLEANER PRO (SANDY EDITION)
+  Pembersih Mendalam Windows Hingga ke Akar Sistem
+================================================================================
+
+Aplikasi ini dibuat khusus untuk menyelesaikan masalah Drive C yang penuh 
+meskipun hanya sedikit aplikasi yang diinstal.
+
+--------------------------------------------------------------------------------
+1. KENAPA DRIVE C ANDA PENUH PADAHAL APLIKASI SEDIKIT?
+--------------------------------------------------------------------------------
+Dari hasil audit mendalam yang dilakukan pada laptop Anda, ditemukan bahwa 
+penyebab utama Drive C Anda hampir habis (tersisa hanya ~1.2 GB) bukanlah aplikasi, 
+melainkan file sampah tersembunyi berukuran raksasa:
+
+  [1] Sisa Ekstraksi Installer ArcGIS Pro   : ~3.1 GB
+      Lokasi: C:\Users\Lenovo\Documents\ArcGIS Pro 3.5\ArcGISPro
+      (File installer .cab dan .msi yang tertinggal setelah instalasi selesai)
+
+  [2] Cache Peta & Raster ArcGIS (ESRI)      : ~4.5 GB
+      Lokasi: AppData\Local\ESRI\Local Caches
+      (Cache tile peta yang menumpuk seiring pemakaian ArcGIS)
+
+  [3] File Hibernasi Windows (hiberfil.sys)  : ~3.1 GB - 3.4 GB
+      Lokasi: C:\hiberfil.sys
+      (File cadangan memori Windows untuk Fast Startup / Hibernate)
+
+  [4] Node.js NPM Cache                      : ~2.9 GB
+      Lokasi: AppData\Local\npm-cache
+
+  [5] Gradle Caches & Transforms             : ~1.7 GB - 3.5 GB
+      Lokasi: C:\Users\Lenovo\.gradle\caches
+
+  [6] Google Chrome Cache (Semua Profil)     : ~1.1 GB
+      (Terutama di Profile 4, Code Cache, dan Service Worker)
+
+  [7] Cache Developer Lain (PIP, UV, Pub)    : ~2.0 GB
+      (ms-playwright browser, Flutter Pub cache, pip wheel cache)
+
+  [8] TikTok LIVE Studio Gecko Cache         : ~0.4 GB
+      Lokasi: AppData\Roaming\TikTok LIVE Studio\gecko_cache
+
+TOTAL SAMPAH TERSEMBUNYI YANG BISA DIBERSIHKAN: ~19 GB - 20 GB!
+
+--------------------------------------------------------------------------------
+2. CARA MENGGUNAKAN APLIKASI
+--------------------------------------------------------------------------------
+Ada dua cara mudah untuk menjalankan aplikasi ini:
+
+  ▶ CARA TERBAIK (Rekomendasi - Mode Administrator Penuh):
+    Klik kanan file:
+      Jalankan_Pembersih_Admin.bat -> "Run as Administrator"
+    (Atau langsung double-click file Jalankan_Pembersih_Admin.bat, 
+     maka konfirmasi UAC Windows akan otomatis muncul).
+
+  ▶ CARA LANGSUNG:
+    Double-click file:
+      UltimateCleaner_Pro.exe
+
+--------------------------------------------------------------------------------
+3. FITUR-FITUR UTAMA APLIKASI
+--------------------------------------------------------------------------------
+  [TAB 1] ⚡ 1-Klik Pembersihan Mendalam
+    • Pindai Sampah (Deep Scan): Menghitung ukuran sampah secara akurat.
+    • Pilih kategori yang ingin dibersihkan dengan mencentang kotak.
+    • Klik tombol besar hijau: "⚡ 1-KLIK BERSIHKAN SEMUA".
+    • Aplikasi akan membersihkan file secara aman, melewati file yang sedang aktif.
+
+  [TAB 2] 🚀 Optimasi Akar Sistem (Admin)
+    • Manajemen Hibernasi (hiberfil.sys):
+      - Tombol Merah: Matikan Hibernasi (Bebaskan ~3.1 GB seketika!)
+      - Tombol Kuning: Kurangi Ukuran 50% (Hemat ~1.5 GB tapi Fast Startup tetap aktif)
+      - Tombol Hijau: Nyalakan kembali normal
+    • DISM Component Store (WinSxS):
+      - Membersihkan backup update Windows lama yang sudah tergantikan.
+    • Flush DNS Cache: Reset cache koneksi jaringan.
+
+  [TAB 3] 🔎 Pencari File Raksasa (>100 MB)
+    • Memindai dan menampilkan daftar file-file berukuran besar di laptop.
+    • Dilengkapi tombol "Buka Lokasi" dan "Hapus File" jika sudah tidak dibutuhkan.
+
+  [TAB 4] ℹ️ Analisis & Bantuan
+    • Ringkasan detail mengenai komponen-komponen sistem Windows.
+
+================================================================================
+Dibuat untuk Sandy • File siap digunakan di: D:\Pembersih Laptop
+================================================================================
+
